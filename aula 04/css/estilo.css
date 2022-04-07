@@ -1,0 +1,23 @@
+.dimensão {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 55px;
+    text-align: center;
+}
+
+p {
+    color: gold;
+    font-size: 18px;
+    text-align: center;
+}
+
+div {
+    margin: auto;
+    width: 10%;
+}
