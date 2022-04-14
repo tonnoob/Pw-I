@@ -1,0 +1,22 @@
+/* quando já visitou o link */
+a:visited {
+    color: rgb(230, 24, 24);
+}
+/* quando nao foi visitado */ 
+a:link {
+    color: rgb(14, 202, 39);
+}
+/* quando passo com  omouse em cima */
+a:hover {
+    color: blue;
+}
+/* link quando foi selecionado */
+a:active {
+    color: rgb(236, 203, 12)
+}
+body{
+    background-image: url("../img/wind.jpeg");
+    background-size: 100%;
+
+}
+    
