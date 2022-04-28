@@ -1,0 +1,38 @@
+#botao1 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
+}
+.button:hover {background-color: #3e8e41}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+#botao2 {
+    /* padding: 10px; */
+    /* quando você coloca apenas 1 valor de padding ele replica
+    aos quatro cantos (isso vale também pra margin) */
+    /* padding: 15px 5px; */
+    /* quando você coloca dois valores o código compreende como
+    sendo o primeiro para cima/baixo e o segundo pra 
+    esquerda/direita */
+    /* padding: 10px 15px 20px 25px; */
+    /* quando você coloca os 4 ele segue a ordem do sentido
+    horário! cima, direita, baixo e esquerda */
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
